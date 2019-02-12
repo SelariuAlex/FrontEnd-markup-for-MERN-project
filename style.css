@@ -115,3 +115,51 @@ body {
 .banner__btn--green:hover {
   background-color: rgb(192, 192, 192);
 }
+
+/* Register */
+
+.container {
+  margin: 4rem;
+}
+
+.register__title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+
+.register__subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: rgb(100, 100, 100);
+}
+
+.form__input {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 0.5rem;
+  outline: none;
+  margin: 0.5rem;
+}
+
+.register--btn {
+  display: block;
+  margin: 2rem auto;
+  background-color: #40acf1;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.register--btn:hover {
+  background-color: #0299f7;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    margin: 4rem auto;
+    width: 30rem;
+  }
+}
