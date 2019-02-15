@@ -116,7 +116,7 @@ body {
   background-color: rgb(192, 192, 192);
 }
 
-/* Register */
+/* Form */
 
 .container {
   margin: 4rem;
@@ -161,5 +161,84 @@ body {
   .container {
     margin: 4rem auto;
     width: 30rem;
+  }
+}
+
+/* profile */
+.profile {
+  margin: 4rem 10%;
+}
+
+.btn--back {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+  background: rgb(220, 220, 220);
+  transition: all 0.5s ease-in-out;
+}
+
+.btn--back:hover {
+  background: rgb(200, 200, 200);
+}
+
+.profile__header {
+  background-color: #40acf1;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.profile__picure {
+  height: 10rem;
+  margin: 2rem;
+}
+
+.profile__name {
+  color: #fff;
+  font-size: 3rem;
+  padding: 1rem;
+  font-style: italic;
+}
+
+.profile__gym {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.profile__city {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.profile__info {
+  margin-top: 2rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  background: rgb(240, 240, 240);
+  padding: 1rem;
+  text-align: center;
+}
+
+.profile__title {
+  color: #40acf1;
+  font-size: 2rem;
+}
+
+.profile__subtitle {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.profile__info--work {
+  background: #e1f0fa;
+  text-align: start;
+}
+
+@media screen and (min-width: 576px) {
+  .profile__subtitle {
+    margin: 0 1rem;
+  }
+  .profile__picure {
+    height: 15rem;
   }
 }
